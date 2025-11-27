@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Konyvtar_App" Height="600" Width="900">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="300" />
@@ -79,13 +79,10 @@
 
 
             <StackPanel Orientation="Horizontal">
-
                 <Button Content="Űrlap törlése és az adatok betöltése" 
-                        Width="250" 
-                        Margin="2" 
+                        Width="280" 
                         Click="Frissites_Button_Click"
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"></Button>
+                        />
             </StackPanel>
             
         </StackPanel>
